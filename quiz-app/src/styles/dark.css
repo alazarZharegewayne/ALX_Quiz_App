@@ -1,0 +1,9 @@
+body.dark {
+    --bg-color: #030303;
+    --text-color: #f5f5f5;
+    --primary-color: #60a5fa;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+  }
+  
