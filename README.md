@@ -27,3 +27,33 @@ Quiz App is an interactive web application that offers:
 1. Clone the repository
 2. Install dependencies
 3. Start the development server
+
+## Usage
+
+1. Select a quiz category from the homepage
+2. Choose your preferred difficulty level and number of questions
+3. Answer the questions within the time limit
+4. View your results and detailed feedback
+5. Track your progress in the quiz history section
+
+## Built With
+
+- [React](https://reactjs.org/) - Frontend framework
+- [Vite](https://vitejs.dev/) - Build tool
+- [React Router](https://reactrouter.com/) - Navigation
+- [Axios](https://axios-http.com/) - API requests
+
+## Project Structure
+
+quiz-app/
+├── src/
+│ ├── components/
+│ │ ├── common/
+│ │ ├── quiz/
+│ │ └── history/
+│ ├── contexts/
+│ ├── pages/
+│ ├── services/
+│ └── styles/
+├── public/
+└── ...
