@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import SearchBar from "../../components/common/SearchBar";
-import QuizHistory from "../components/history/QuizHistory";
+import SearchBar from "../components/Common/SearchBar";
+import QuizHistory from "../components/History/QuizHistory";
 import { fetchCategories } from "../services/api";
 import "../styles/quiz.css";
 
